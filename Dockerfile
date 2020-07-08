@@ -13,6 +13,6 @@ LABEL org.label-schema.schema-version="1.0" \
 RUN pip install --no-cache-dir --upgrade pip setuptools
 
 COPY requirements.txt /tmp/requirements.txt
-RUN pip install --no-cache-dir -r /tmp/requirements.txt
+RUN pip install --no-cache-dir --compile -r /tmp/requirements.txt
 
 ENTRYPOINT ["/usr/local/bin/pyup"]
