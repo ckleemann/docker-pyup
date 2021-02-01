@@ -1,5 +1,5 @@
 # pyup bot docker image
-[![Build Status](https://travis-ci.org/ckleemann/docker-pyup.svg?branch=master)](https://travis-ci.org/ckleemann/docker-pyup)
+![Build Status](https://github.com/ckleemann/docker-pyup/workflows/ci/badge.svg)
 
 This docker image provides the latest version of [pyupio](https://pypi.org/project/pyupio/). The pyupip version is automatically updated and pushed to [docker hup](https://hub.docker.com/r/ckleemann/pyup).
 
