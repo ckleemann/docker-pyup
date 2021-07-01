@@ -1,10 +1,10 @@
 # pyup bot docker image
 ![Build Status](https://github.com/ckleemann/docker-pyup/workflows/ci/badge.svg)
 
-This docker image provides the latest version of [pyupio](https://pypi.org/project/pyupio/). The pyupip version is automatically updated and pushed to [docker hup](https://hub.docker.com/r/ckleemann/pyup).
+This docker image provides the latest version of [pyupio](https://pypi.org/project/pyupio/). The pyupio version is automatically updated by dependabot and pushed to [docker hub](https://hub.docker.com/r/ckleemann/pyup).
 
-## Gitlab CI
-To use this image inside a gitlab ci environment as a scheduled task add the following snippet to your ```.gitlab-ci.yml```:
+## GitLab CI
+To use this image inside a GitLab CI environment as a scheduled task add the following snippet to your ```.gitlab-ci.yml```:
 
 ```yaml
 pyup:
