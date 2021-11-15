@@ -1,4 +1,4 @@
-FROM python:alpine
+FROM python:3.10.0-alpine3.14
 
 ARG VCS_REF
 ARG VERSION
